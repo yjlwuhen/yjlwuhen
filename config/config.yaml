@@ -1,0 +1,21 @@
+---
+animals:
+  - name: murcielago
+    type: cow
+  - name: gallardo
+    type: cow
+  - name: tweety
+    type: bird
+  - name: psyduck
+    type: bird
+  - name: viper
+    type: snake
+  - name: cobra
+    type: snake
+database:
+  host: 127.0.0.1
+  port: 3306
+  name: animals
+  user: root
+  pass: 123456
+  char: utf8mb4
